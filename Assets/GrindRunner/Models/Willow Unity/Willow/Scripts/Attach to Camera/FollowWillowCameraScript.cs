@@ -1,8 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-
-namespace Willow
+namespace GrindRunner.Models.Willow_Unity.Willow.Scripts.Attach_to_Camera
 {
     /// <summary>
     /// Attach to the Camera and then drag and drop Willow.

@@ -1,6 +1,5 @@
 using UnityEngine;
-
-namespace Willow
+namespace GrindRunner.Models.Willow_Unity.Willow.Scripts.Attach_to_Willow
 {
 	/// <summary> The Movement State Willow is in.</summary>
 	public enum WillowMovementState

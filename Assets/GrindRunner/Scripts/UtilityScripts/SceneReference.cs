@@ -7,7 +7,7 @@ using UnityEngine;
 #if UNITY_EDITOR
 #endif
 
-namespace PrototypingPlayground.UsefulScripts
+namespace GrindRunner.Scripts.UtilityScripts
 {
 	/// <summary>
 	/// Keeps reference to a scene asset and tracks it's path, so it can be used in the game runtime.

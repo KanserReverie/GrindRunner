@@ -1,8 +1,5 @@
 ﻿using UnityEngine;
-using System.Collections;
-
-
-namespace TMPro.Examples
+namespace External_Assets.TextMesh_Pro.Examples___Extras.Scripts
 {
     
     public class ObjectSpin : MonoBehaviour

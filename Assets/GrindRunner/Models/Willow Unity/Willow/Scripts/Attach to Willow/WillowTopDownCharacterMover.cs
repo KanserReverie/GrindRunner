@@ -1,8 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-
-namespace Willow
+namespace GrindRunner.Models.Willow_Unity.Willow.Scripts.Attach_to_Willow
 {
 
     // This is in the same folder hopefully.

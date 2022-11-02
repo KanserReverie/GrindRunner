@@ -1,6 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-namespace PrototypingPlayground.UsefulScripts
+namespace GrindRunner.Scripts.UtilityScripts
 {
     public static class CommonlyUsedStaticMethods
     {
@@ -24,6 +24,15 @@ namespace PrototypingPlayground.UsefulScripts
         public static void ResetCurrentScene()
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
+        
+        /// <summary>
+        /// This will a build index to load a scene.
+        /// </summary>
+        /// <param name="sceneNumber">The build index of the scene you want to load.</param>
+        public static void LoadSceneNumber(int sceneNumber)
+        {
+            SceneManager.LoadScene(sceneNumber);
         }
     }
 }
