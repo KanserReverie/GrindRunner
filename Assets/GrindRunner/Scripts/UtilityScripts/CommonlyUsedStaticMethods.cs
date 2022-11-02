@@ -34,5 +34,14 @@ namespace GrindRunner.Scripts.UtilityScripts
         {
             SceneManager.LoadScene(sceneNumber);
         }
+        
+        /// <summary>
+        /// This will load the next scene.
+        /// Based off next scene in build index.
+        /// </summary>
+        public static void LoadNextScene()
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
     }
 }
